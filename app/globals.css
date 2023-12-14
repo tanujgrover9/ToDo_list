@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "poppins";
+  src: url("./Poppins/Poppins-SemiBold.ttf");
+}
+@font-face {
+  font-family: "rejoice";
+  src: url("/Rejouice-Headline.ttf");
+}
+h1 {
+  color: #4c4c55;
+}
+
+.btn {
+  background-color: rgb(67, 183, 98);
+}
+.list {
+  background-color: #eceae9;
+
+  box-shadow: rgba(173, 148, 123, 0.45) 0px 25px 20px -20px;
+}
+
+body {
+  font-family: poppins;
+  font-family: rejoice;
+}
+
+input {
+  background-color: #e5d4ff;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.taskadd {
+  background-color: #a6bdcb;
+}
+button {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
